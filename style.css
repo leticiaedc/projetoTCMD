@@ -1,0 +1,62 @@
+/* Reset de estilos para garantir consistência entre navegadores */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos básicos da página */
+body {
+  font-family: Arial, sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a { 
+  color: inherit;
+  text-decoration: none;
+  color: black;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  height: 10vh;
+}
+
+nav ul {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* Conteúdo */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.content {
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Rodapé */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  height: 10vh;
+}
